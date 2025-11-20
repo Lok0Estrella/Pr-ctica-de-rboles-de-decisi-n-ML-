@@ -6,7 +6,7 @@
 # Docente: MARIA DE LOURDES AGUILLON RUIZ
 
 ## Descripción del Trabajo
-Este proyecto implementa un clasificador de árbol de decisión para el dataset de vinos de scikit-learn, que contiene 178 muestras de vino con 13 características químicas cada una, clasificadas en 3 tipos diferentes.
+Este trabajo implementa un clasificador de árbol de decisión para el dataset de vinos de scikit-learn, que contiene 178 muestras de vino con 13 características químicas cada una, clasificadas en 3 tipos diferentes.
 
 # Resultados Obtenidos
 
@@ -26,4 +26,5 @@ Este proyecto implementa un clasificador de árbol de decisión para el dataset 
 El árbol identificó como características clave:
 - **color_intensity** (primera división)
 - **flavanoids** 
+
 - **proline**
