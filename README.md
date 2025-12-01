@@ -28,3 +28,14 @@ El árbol identificó como características clave:
 - **flavanoids** 
 
 - **proline**
+
+## Conclusiones sobre la Actividad en nuestro proyecto.
+
+Nuestro proyecto actual no es compatible con modelos de árboles de decisión debido a las siguientes razones fundamentales:
+
+- **Naturaleza del sistema: Utilizamos un motor lógico basado en Resolución SLD, unificación de variables y búsqueda DFS, no un modelo de aprendizaje automático
+- **Tipo de datos: Nuestra base de conocimiento maneja principalmente valores no numéricos (predicados lógicos, variables libres) en lugar de atributos categóricos simples
+- **Proceso inferencial: El sistema realiza deducción mediante encadenamiento hacia atrás y puede generar múltiples soluciones, a diferencia de los caminos deterministas de los árboles de decisión
+- **Estructura de conocimiento: Trabajamos con reglas declarativas y unificación de variables, no con datos tabulares requeridos por los árboles de decisión
+
+Para poder aplicar árboles de decisión sería necesario realizar transformaciones significativas en nuestra base de conocimiento, asignando identificadores numéricos a todos los valores y reestructurando completamente el formato de los datos.
